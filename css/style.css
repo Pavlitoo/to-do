@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana;
+}
+
+body {
+    background-color: #8F4DF7;
+}
+
+.container {
+
+    /* border: 3px solid red; */
+
+    width: 50%;
+    margin: 0 auto;
+
+    padding-top: 10%;
+}
+
+.add-todo-block {
+
+    display: flex;
+
+    border: 10px solid #AE6CF8;
+    border-radius: 5px;
+
+    margin-bottom: 10%;
+}
+
+.add-todo-input-block {
+
+    height: 70px;
+    background-color: white;
+    flex: 4;
+
+    display: flex;
+}
+
+.add-todo-input {
+
+    width: 100%;
+    border: 0;
+
+    padding-left: 30px;
+    font-size: 24px;
+    color: #5B5B5B;
+}
+
+.add-todo-input:focus {
+
+    outline: none;
+}
+
+.add-todo-button {
+
+    height: 70px;
+    background-color: #4EB7F8;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+.todo-list-block {
+
+    width: 100%;
+    border: 10px solid #AE6CF8;
+}
+
+.todo-block {
+
+    /* border: 2px solid red; */
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    font-size: 22px;
+    color: #5B5B5B;
+}
+
+/* Класс, который дается выполненным задачам (названиям) */
+.todo-completed {
+
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.todo-block div {
+
+    display: flex;
+}
+
+.todo-checkbox {
+
+    margin-right: 25px;
+    width: 20px;
+}
+
+.icon-button {
+    background: 0;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.todo-delete-button {
+    margin-left: 15px;
+}
+
+.hidden {
+    display: none;
+}
